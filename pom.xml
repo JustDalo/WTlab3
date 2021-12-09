@@ -11,12 +11,13 @@
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-compiler-plugin</artifactId>
         <configuration>
-          <source>15</source>
-          <target>15</target>
+          <source>7</source>
+          <target>7</target>
         </configuration>
       </plugin>
     </plugins>
   </build>
+
   <packaging>jar</packaging>
 
   <name>jwd-task01-template</name>
@@ -27,6 +28,11 @@
   </properties>
 
   <dependencies>
+    <dependency>
+      <groupId>org.javatuples</groupId>
+      <artifactId>javatuples</artifactId>
+      <version>1.2</version>
+    </dependency>
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
