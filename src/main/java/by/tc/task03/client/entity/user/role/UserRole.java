@@ -1,4 +1,9 @@
 package by.tc.task03.client.entity.user.role;
 
-public enum UserRole {
+import java.io.Serializable;
+
+public enum UserRole implements Serializable {
+    ADMIN,
+    GUEST,
+    USER,
 }
